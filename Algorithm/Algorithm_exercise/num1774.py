@@ -89,7 +89,7 @@ length = len(locations)
 
 for i in range(length - 1):
     for j in range(i + 1, length):
-        edges.append((i+1, j+1, get_distance(locations[i], locations[j])))
+        edges.append((i+1, j+1, get_distance(locations[i], locations[j])))      # 어떤 정점(i+1)과 또 다른 어떤 정점(j+1)에 대한 거리
 
 for i in range(1, n+1):
     parent[i] = i
@@ -98,7 +98,7 @@ for i in range(m):
     a, b = map(int, input().split())
     union_parent(parent, a, b)
 
-edges.sort(key=lambda data: data[2])
+edges.sort(key=lambda data: data[2])                # 거리를 기준으로 정렬
 
 result = 0
 for a, b, cost in edges:

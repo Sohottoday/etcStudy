@@ -92,7 +92,7 @@ def bfs():
         now = q.popleft()
         if now == start:
             continue
-        for prev, cost in reverse adj[now]:
+        for prev, cost in reverse_adj[now]:
             if distance[now] == distance[prev] + cost:
                 dropped[prev][now] = True
                 q.append(prev)
