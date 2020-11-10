@@ -130,3 +130,10 @@
 
 ![image](https://user-images.githubusercontent.com/58559786/98334288-e6168580-2045-11eb-82f4-5ab249eaeefa.png)
 
+
+
+
+
+- 차원과 측정값
+  - https://vizlab.tistory.com/33
+- 
