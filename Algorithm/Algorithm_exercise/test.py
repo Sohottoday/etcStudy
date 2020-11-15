@@ -1,6 +1,4 @@
-n = 10
-adj = [[] for _ in range(n+1)]
-print(adj)
 
-positions = [0] * 5
+array = [-30, -15, -7, 0, 7, 9]
+largest = max(max(array), -min(array))
 
